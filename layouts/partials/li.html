@@ -1,0 +1,31 @@
+<li class="post-item">
+   
+    <span class="meta"><time >
+      {{ $shamsi := newScratch }}
+        {{ $shamsi.Set "diff" (sub (add ( div .PublishDate.Unix 86400) 25569) (add ( div (time "1920-03-20").Unix 86400) 25569)) }}
+        {{ $shamsi.Set "gn" (div (mod (mul ($shamsi.Get "diff") 100) 36525) 100) }}
+        {{ $shamsi.Set "year" (math.Floor (add (div ($shamsi.Get "diff") 365.25) 1299)) }}
+        
+        {{ if lt (int ($shamsi.Get "gn")) 186 }}
+          {{$shamsi.Set "month" (add (mod (int (div ($shamsi.Get "gn") 31)) 12) 1)}}
+        {{else if eq (mod (int (div ($shamsi.Get "diff") 365.25)) 4) 0}}
+          {{ $shamsi.Set "month" ( add (mod (add (int (div (sub (int ($shamsi.Get "gn")) 186) 30)) 6) 12) 1) }}
+        {{else if lt (int ($shamsi.Get "gn")) 336 }}
+          {{ $shamsi.Set "month" ( add (mod (add (int (div (sub (int ($shamsi.Get "gn")) 186) 30)) 6) 12) 1) }}
+        {{else}}
+          {{ $shamsi.Set "month" ( add (mod (add (int (div (sub (int ($shamsi.Get "gn")) 336) 29)) 11) 12) 1) }}
+        {{ end }}
+        
+        {{ if lt (int ($shamsi.Get "gn")) 186 }}
+          {{ $shamsi.Set "day" (add (mod (int ($shamsi.Get "gn")) 31) 1) }}
+        {{else if eq (mod (int (div ($shamsi.Get "diff") 365.25)) 4) 0}}
+          {{ $shamsi.Set "day" (add (mod (sub (int ($shamsi.Get "gn")) 186) 30) 1) }}
+        {{else if lt (int ($shamsi.Get "gn")) 336 }}
+          {{ $shamsi.Set "day" (add (mod (sub (int ($shamsi.Get "gn")) 186) 30) 1) }}
+        {{else}}
+          {{ $shamsi.Set "day" (add (mod (sub (int ($shamsi.Get "gn")) 336) 29) 1) }}
+        {{ end }}
+        {{ $shamsi.Get "year" }}/{{$shamsi.Get "month"}}/{{$shamsi.Get "day"}}</time></span>
+    
+    <a href="{{ .Permalink }}" target="_blank"><span>{{ .Title }}</span></a>
+</li>

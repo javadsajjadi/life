@@ -1,0 +1,10 @@
+
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<h3>نوشته‌های مرتبط :</h3>
+<ul class="b">
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}" target="_blank">{{ .Title }}</a></li>
+	{{ end }}
+</ol>
+{{ end }}
