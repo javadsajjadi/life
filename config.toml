@@ -12,39 +12,40 @@ pygmentsuseclasses  = true
 disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-123-45"
+assetdir            = "static"
 
 [permalinks]
-blog  = "crime/:slug/"
+crime  = "crime/:filename"
 
 [[menu.main]]
 name                   = "درباره"
 weight                 = -140
 identifier             = "about"
-url                    = "/about/"
+url                    = "about/"
 
 [[menu.main]]
 name                   = "روزمرگــی"
 weight                 = -130
 identifier             = "blog"
-url                    = "/blog/"
+url                    = "blog/"
 
 [[menu.main]]
 name                   = "جرم‌شناسی"
 weight                 = -120
 identifier             = "crime"
-url                    = "/crime/"
+url                    = "crime/"
 
 [[menu.main]]
 name                   = "فیلم/کتاب"
 weight                 = -110
 identifier             = "film"
-url                    = "/book-film/"
+url                    = "book-film/"
 
 [[menu.main]]
 name                   = "بایگانی"
 weight                 = -90
 identifier             = "archive"
-url                    = "/archive/"
+url                    = "archive/"
 
 [params]
 paginate               = 5
