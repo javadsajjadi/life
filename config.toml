@@ -1,10 +1,10 @@
-baseurl             = "https://you.github.io/"
+baseurl             = "https://javadsajjadi.github.io/life/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
 languageCode        = "en-US"
 layoutdir           = "layouts"
-publishdir          = "public"
+publishdir          = "docs"
 theme               = "cocoa"
 author              = "Sayed Javad Sajjadi"
 title               = "Javad Sajjadi"
