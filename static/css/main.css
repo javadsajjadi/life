@@ -60,7 +60,7 @@ body {
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
   direction: rtl;
-  background-image: url(/img/isto.jpg);
+  background-image: url(/life/img/isto.jpg);
 }
 @media (min-width: 600px) {
   body {
