@@ -13,10 +13,12 @@ aliases = [
 
 ١- کتاب آموزش HTML5 - (فێرکاری HTML5) - به زبان کردی
 
-<img title="" src="file:///C:/Users/NUC/Documents/GitHub/life/content/about/img/html5.png" alt="" width="471" data-align="center">
+<img title="" src="file:///img/html5.png" alt="" width="471" data-align="center">
 
 ٢- کتاب آموزش CSS 3 - (فێرکاری CSS 3) - به زبان کردی.
 
+![](/img/css3.png)
 
 
-[^1]:آموزش قدم به قدم ویندوز ٨ (٢٠١٢)
+
+[^1]:آموزش شبکه اجتماعی گوگل پلاس سال ٢٠١١، آموزش و کارکردن قدم به قدم ویندوز ٨(٢٠١٣)، سخت افزار مک‌بوک پرو(٢٠٠٩)
