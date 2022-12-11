@@ -13,11 +13,11 @@ aliases = [
 
 ١- کتاب آموزش HTML5 - (فێرکاری HTML5) - به زبان کردی
 
-<img title="" src="file:///img/html5.png" alt="" width="471" data-align="center">
+<img title="" src="/about/img/html5.png" alt="" width="471" data-align="center">
 
 ٢- کتاب آموزش CSS 3 - (فێرکاری CSS 3) - به زبان کردی.
 
-![](/img/css3.png)
+![](/about/img/css3.png)
 
 
 
