@@ -924,13 +924,4 @@ textarea, input, select, button {
   margin-top: 29px;
   margin-bottom: -11px;
 }
-img[src*='#left'] {
-    float: left;
-}
-img[src*='#right'] {
-    float: right;
-}
-img[src*='#center'] {
-    display: block;
-    margin: auto;
-}
+
