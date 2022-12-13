@@ -15,7 +15,7 @@ aliases = [
 
 - سایت مجله کورد [لینوکس](https://linux.krd)
 - سایت انتشاراتی [نوسیار](https://nusyar.com)
-  - ![صفحه‌اصلی](/about/img/n01.jpg)
+    -![صفحه اصلی](/about/img/n01.jpg)
 - داروخانه دکتر قدرتی
 - فرهنگ [انگلیسی-کوردی](https://dict.linux.krd/)
 - فروشگاه [دلوپت](https://delopet.com)
