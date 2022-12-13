@@ -14,10 +14,11 @@ aliases = [
 بیشتر تارنماهای طراحی شده شخصی بودند و برای چند سالی در مدیریت آن استمراری وجود نداشت.
 
 - سایت مجله کورد [لینوکس](https://linux.krd)
+  - [صفحه اصلی](/about/img/l01.jpg)، [صفحه دسته‌ها](/about/img/l02.jpg)، [لیست برچسب‌ها](/about/img/l03.jpg)،[لیست مطالب](/about/img/l04.jpg)
 - سایت انتشاراتی [نوسیار](https://nusyar.com)
   - [صفحه اصلی](/about/img/n01.jpg)، [صفحه بلاگ](/about/img/n02.jpg)، [لیست کتابخانه ها](/about/img/n03.jpg)،[صفحه نویسندگان](/about/img/n04.jpg)،[صفحه نویسنده](/about/img/n05.jpg)،[صفحه جستجو](/about/img/n06.jpg)،[صفحه نوشته بلاگ](/about/img/n07.jpg) 
-- داروخانه دکتر قدرتی
+- داروخانه دکتر قدرتی(منقضی)
 - فرهنگ [انگلیسی-کوردی](https://dict.linux.krd/)
+  - [صفحه اصلی](/about/img/ld01.jpg)، [صفحه اعضا](/about/img/ld02.jpg)
 - فروشگاه [دلوپت](https://delopet.com)
-
-
+  - [صفحه اصلی](/about/img/d01.jpg)، [صفحه محصول](/about/img/d02.jpg)،
