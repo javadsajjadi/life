@@ -9,10 +9,12 @@ aliases = [
 
 +++
 
-This website is a personal homepage.
+بیشتر در شبکه اینترنت با نام قزوان (وەزوان - Qezwan ) شناخته شدم و سایتی را بدین نام  در [گیتهاب](https://qezwan.ir) راه اندازی کردم. در ترجمه هسته سیستم مدیریت محتوای وردپرس بعنوان  [ویرایشگر](https://profiles.wordpress.org/qezwan/)و  بیشتر از بیست افزونه را ترجمه نمودم.
 
-The site is built with <a target="_blank" rel="noopener" href="//gohugo.io">Hugo</a>—a static site generator made with Go. The website [source code](/) is available on GitHub. It uses the <a target="_blank" rel="noopener" href="//github.com/nishanths/cocoa-hugo-theme">cocoa</a> theme. The posts are written in Markdown.
+مع الوصف سایت‌های و نرم افزارهای زیر را به زبان کوردی ترجمه نمودم:
 
-The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.
+**سایت ماستۆدۆن**
+ماستودن[1^] یکی از شبکه‌های غیرمتمرکز و کد باز یا منبع باز است.که می‌توان به عنوان رقیب تویتر قلمداد کرد.
 
-If you find errors, please let me know.
+
+[^1]: ماستودون (به انگلیسی: Mastodon) یک نرم‌افزار آزاد و متن‌باز خودمیزبان (خدمات وب) برای ساخت شبکهٔ اجتماعی است که این امکان را به هر شخص می‌دهد تا گره سرور خود را در شبکه میزبانی کند و پایگاه‌های مختلف از کاربران آن در میان سروهای متفاوتی پخش هستند.[ویکیپدیا](https://fa.wikipedia.org/wiki/%D9%85%D8%A7%D8%B3%D8%AA%D9%88%D8%AF%D9%88%D9%86_(%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1))
