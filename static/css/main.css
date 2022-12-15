@@ -843,7 +843,7 @@ section.main .content .markdown ol li {
     text-align: right;
     direction: rtl;
     list-style: arabic-indic;
-    border-right: #c0d7ff9e 3px solid;
+   /* border-right: #c0d7ff9e 3px solid;*/
     padding-bottom: 1px;
     line-height: 1rem;
     font-size: 14px;
