@@ -1,4 +1,4 @@
-baseurl             = "https://javadsajjadi.github.io/life"
+baseurl             = "https://yaprax.ir"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
