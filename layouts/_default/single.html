@@ -4,7 +4,9 @@
         <div class="content">
             {{ partial "page-heading.html" . }}
             <div class="markdown">
+                {{ partial "series.html" . }}
                 {{ .Content }}
+                {{ partial "series.html" . }}
             </div>
         </div>
     </div>
