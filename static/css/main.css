@@ -839,14 +839,15 @@ section.main .content .markdown ol li {
   list-style: arabic-indic;
   max-width: 100%;
   /* margin: 0 34px auto; */
-  padding-right: 1px;
-  text-align: right;
-  direction: rtl;
-  list-style: arabic-indic;
-  /* border-right: #eee 3px solid; */
-  padding-bottom: 5px;
-  line-height: 1rem;
-  font-size: 14px;
+     padding-right: 6px;
+    text-align: right;
+    direction: rtl;
+    list-style: arabic-indic;
+    border-right: #c0d7ff9e 3px solid;
+    padding-bottom: 1px;
+    line-height: 1rem;
+    font-size: 14px;
+    padding-top: 4px;
 }
 ol.b li {
   list-style-type: decimal;
