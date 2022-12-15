@@ -4,9 +4,33 @@
         <div class="content">
             {{ partial "page-heading.html" . }}
             <div class="markdown">
-                {{ partial "series.html" . }}
+                {{- if .Params.series -}}
+  {{- with index (.GetTerms "series") 0 -}}
+    <div class="notice--info">
+      <p>این نوشته قسمتی از زنجیره نوشته های <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a> است.</p>
+    </div>
+  {{- end -}}
+{{- end -}}
                 {{ .Content }}
-                {{ partial "series.html" . }}
+               {{- if .Params.series -}}
+  <div class="post-series">
+    {{- $series := where .Site.RegularPages.ByDate ".Params.series" "intersect" .Params.series -}}
+    {{- with $series -}}
+    <h3 id="series">فصل‌های دیگر</h3>
+    <ol>
+        {{- range . -}}
+        <li>
+            {{- if eq .File.UniqueID $.File.UniqueID -}}
+                <b>{{ .Title }}</b>
+            {{- else -}}
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{- end -}}
+        </li>
+        {{- end -}}
+    </ol>
+    {{- end -}}
+  </div>
+{{- end -}}
             </div>
         </div>
     </div>
