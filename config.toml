@@ -130,3 +130,4 @@ disableKinds = ["taxonomyTerm"]
   author = "authors"
   tag = "tags"
   category = "categories"
+   series = "series"
