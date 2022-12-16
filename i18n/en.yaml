@@ -31,8 +31,8 @@
   translation: "روزمـــرگی"
 - id: gnu
   translation: "گنو/لینوکس"
-- id: fb
-  translation: "کتاب/فیلم"
+- id: filme
+  translation: "فیلم‌های پیشنهادی..."
 - id: crime
   translation: "جرم‌شناسی"
 - id: about
