@@ -1,11 +1,11 @@
 {{ if .Params.series }}
 <div>
-    <h4>بەشەکانی ئەم بابەتە.</h4>
+    <h4>فصل‌های دیگر ...</h4>
     <ul class="list-group">
         {{ range $num,$post := (index .Site.Taxonomies.series (index .Params.series 0 | urlize)).Pages.ByDate }}
             {{ if eq $post.Permalink $.Page.Permalink }}
                 <li class="list-group-item active">
-                   بەشی  {{ add $num 1 }}: ئەم بابەتە
+                   فصل  {{ add $num 1 }}: موضوع فعلی
                 </li>
             {{ else }}
                 <li class="list-group-item">
