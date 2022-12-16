@@ -143,6 +143,5 @@ var replaceDigits = function() {
         document.body.innerHTML = document.body.innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function($0) { return map[$0]});
     }
 window.onload = replaceDigits;
-    });
-    });
+    
 });
