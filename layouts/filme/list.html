@@ -33,9 +33,12 @@
             </div>
         </div>                  {{ end }}
       </div>
-        <div class="w3-row">
-  <div class="w3-col s6 w3-green w3-center"><p>s6</p></div>
-  <div class="w3-col s6 w3-dark-grey w3-center"><p>s6</p></div>
+        <div class="card">
+ <img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
+  <div class="container">
+    <h4><b>{{ .Title }}</b></h4> 
+    <p>{{ .Description | markdownify }}</p> 
+  </div>
 </div>
          
           
