@@ -2,7 +2,7 @@
 
 title: جیاوازی فەرمانی SU و SUDO لە لینوکس
 tags: [فلسفه]
-date : "2015-03-18 05:35:45"
+date : "2012-12-18 05:35:45"
 authors:
 - javad
 series: ['law']
