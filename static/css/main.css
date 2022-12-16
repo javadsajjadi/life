@@ -926,4 +926,15 @@ textarea, input, select, button {
   margin-top: 29px;
   margin-bottom: -11px;
 }
-
+.column {
+    float: right;
+    width: 50%;
+    padding: 0 10px 20px;
+}
+  .row {
+    margin: 0 -5px;
+}
+  .w3-container, .w3-panel {
+    padding: 10px;
+    margin-right: 40px;
+}
