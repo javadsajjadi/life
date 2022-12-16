@@ -2,8 +2,19 @@
 <script type="text/javascript" src="/js/lightbox.js"></script>
 <link rel="stylesheet" href="/css/lightbox.css">
  <script type="text/javascript">
-   String.prototype.toPersianDigit = function (a) { return this.replace(/d+/g, function (digit) { var enDigitArr = [], peDigitArr = []; for (var i = 0; i < digit.length; i++) { enDigitArr.push(digit.charCodeAt(i)); } for (var j = 0; j < enDigitArr.length; j++) { peDigitArr.push(String.fromCharCode(enDigitArr[j] + ((!!a && a == true) ? 1584 : 1728))); } return peDigitArr.join(''); }); }; function TraceNodes(Node) { if (Node.nodeType == 3) //TextNode Node.nodeValue = Node.nodeValue.toPersianDigit(); else for (var i = 0; i < Node.childNodes.length; i++) TraceNodes(Node.childNodes[i]); } TraceNodes(document); 
-</script>
+$.fn.replaceDigits = function() {
+    var map =
+    [
+        "&\#1632;", "&\#1633;", "&\#1634;", "&\#1635;", "&\#1636;",
+        "&\#1637;", "&\#1638;", "&\#1639;", "&\#1640;", "&\#1641;"
+    ];
+	$(this).each(function() {
+        $(this).html($(this).html().replace(
+            /\d(?=[^<>]*(<|$))/g,
+            function($0) { return map[$0] }
+        ));
+	});
+}</script>
 
 </body>
 </html>
