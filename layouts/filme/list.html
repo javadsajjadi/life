@@ -1,49 +1,24 @@
 {{ partial "header.html" . }}
 <section class="main">
   <div class="w3-container">
-        <div class="content">
-          
+        <div class="content"> 
             {{ if .Content }}
                 <div class="markdown">
                     {{ .Content }}
-                </div>
-                
-
+                </div>        
             {{ end }}
-            <!-- Trigger/Open the Modal -->
-            
-            
-
             <div class="row">{{ range where .Paginator.Pages "Section" "ne" "" }}
               <div class="column">
             <div class="card" style="width:100%">
-                
-                  
-                       <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>
-                          
+                       <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>                          
                           <div class="w3-container w3-center">
 				  <h2>{{ .Title }}</h2>
                             <p>{{ .Description | markdownify }}</p>
                           </div>
-                           
-                        
-                         
-                    
-              
             </div>
         </div>                  {{ end }}
-      </div>
-        <div class="card">
- <img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
-  <div class="container">
-    <h4><b>{{ .Title }}</b></h4> 
-    <p>{{ .Description | markdownify }}</p> 
-  </div>
-</div>
-         
-          
-        </div>
-	
+      </div> 
+        </div>	
     </div>
 </section>
 {{ partial "footer.html" . }}
