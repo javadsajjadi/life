@@ -16,27 +16,11 @@
 {{ end }}
 
 <script type="text/javascript">
-$(document).ready(function () {
-
-    ConvertNumberToPersion();
-});
-
-function ConvertNumberToPersion() {
-    persian = { 0: '۰', ۱: '۱', ۲: '۲', ۳: '۳', ۴: '۴', ۵: '۵', ۶: '۶', ۷: '۷', ۸: '۸', ۹: '۹' };
-    function traverse(el) {
-        if (el.nodeType == 3) {
-            var list = el.data.match(/[0-9]/g);
-            if (list != null && list.length != 0) {
-                for (var i = 0; i < list.length; i++)
-                    el.data = el.data.replace(list[i], persian[list[i]]);
-            }
-        }
-        for (var i = 0; i < el.childNodes.length; i++) {
-            traverse(el.childNodes[i]);
-        }
+var replaceDigits = function() {
+        var map = ["&\#1776;","&\#1777;","&\#1778;","&\#1779;","&\#1780;","&\#1781;","&\#1782;","&\#1783;","&\#1784;","&\#1785;"]
+        document.body.innerHTML = document.body.innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function($0) { return map[$0]});
     }
-    traverse(document.body);
-}
+window.onload = replaceDigits;
   </script>
 {{ if .Site.Params.piwik }}
 <!-- Piwik -->
