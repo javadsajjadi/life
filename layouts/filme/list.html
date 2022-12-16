@@ -14,14 +14,13 @@
             
             
 
-<div class="page-heading"><span style="cursor:pointer;float: left;" onclick="document.getElementById('id01').style.display='block'" ><img src="https://img.icons8.com/cotton/40/000000/volunteering.png"/></span>{{ i18n "learn" }}</div><p></p>
             <div class="row">{{ range where .Paginator.Pages "Section" "ne" "" }}
               <div class="column">
             <div class="card" style="width:100%">
                 
                   
                        <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>
-                          <h2></h2>
+                          <h2>{{ .Title }}</h2>
                           <div class="w3-container w3-center">
                             <p>{{ .Description | markdownify }}</p>
                           </div>
