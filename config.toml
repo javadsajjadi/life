@@ -38,8 +38,8 @@ url                    = "crime/"
 [[menu.main]]
 name                   = "فیلم"
 weight                 = -110
-identifier             = "film"
-url                    = "film/"
+identifier             = "filme"
+url                    = "filme/"
 
 [[menu.main]]
 name                   = "بایگانی"
