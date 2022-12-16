@@ -1,20 +1,10 @@
 {{ partial "footer_scripts" . }}
 <script type="text/javascript" src="/js/lightbox.js"></script>
 <link rel="stylesheet" href="/css/lightbox.css">
- <script type="text/javascript">
-$.fn.replaceDigits = function() {
-    var map =
-    [
-        "&\#1632;", "&\#1633;", "&\#1634;", "&\#1635;", "&\#1636;",
-        "&\#1637;", "&\#1638;", "&\#1639;", "&\#1640;", "&\#1641;"
-    ];
-	$(this).each(function() {
-        $(this).html($(this).html().replace(
-            /\d(?=[^<>]*(<|$))/g,
-            function($0) { return map[$0] }
-        ));
-	});
-}</script>
+<script src="node_modules/persian-date/dist/persian-date.js" type="text/javascript"></script>
+<script type="text/javascript">
+    new persianDate().format(); // "۱۳۹۶-۰۱-۱۱ ۲۳:۳۳:۲۷ ب ظ" (when i run in my console)  
+</script>
 
 </body>
 </html>
