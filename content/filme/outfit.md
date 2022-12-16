@@ -1,7 +1,7 @@
 ---
 
 title:  "(The Outfit) یک دست لباس" 
-date : "2020-10-13 09:17:45"
+date : "2020-10-13T12:30:23Z"
 image: "/filme/img/outfit.jpg"
 description : " مدت :	1:45 ~ IMDb :  7.1  "
 
