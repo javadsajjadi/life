@@ -7,20 +7,20 @@
                     {{ .Content }}
                 </div>        
             {{ end }}
-		<div class="page-heading2">{{ i18n "filme" }}</div>{{ range .Paginator.Pages }}
-            <div class="row">
+		<div class="page-heading2">{{ i18n "filme" }}</div>
+            <div class="row">{{ range .Paginator.Pages }}
               <div class="column">
-            <div class="card" style="width:100%">
-                       <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>
-                          <h2></h2>
-                          <div class="w3-container w3-center">
-				  <h2>{{ .Title }}</h2>
-                            <p>{{ .Description | markdownify }}</p>
-                          </div>
-            </div>
-        </div>                 
-      </div>	{{end}}  
-        </div>	{{partial "pagination.html" .}}  
+			    <div class="card" style="width:100%">
+					       <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>
+						 
+					  <div class="w3-container w3-center">
+						  <h2>{{ .Title }}</h2>
+					    <p>{{ .Description | markdownify }}</p>
+					  </div>
+			    </div>
+       		 </div> {{end}}                 
+      </div>	{{partial "pagination.html" .}}  
+        </div>	 
     </div>
 </section>
 {{ partial "footer.html" . }}
