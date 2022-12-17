@@ -8,27 +8,17 @@
                 </div>        
             {{ end }}
 		<div class="page-heading2">{{ i18n "filme" }}</div>
-            <div class="row">
-		     {{ if isset .Site.Params "paginate" }}
-                <div style="padding-bottom:20px;">
-                    {{ $pag := .Paginate (where site.RegularPages "Type" "in" "filme") .Site.Params.Paginate }}
-                    {{ range where .Paginator.Pages "Section" "" "" }}
+            <div class="row">{{ range where .Paginator.Pages "Section" "ne" "" }}
               <div class="column">
             <div class="card" style="width:100%">
-                       <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>                          
+                       <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>
+                          <h2></h2>
                           <div class="w3-container w3-center">
-				  <h2>{{ .Title }}</h2>
                             <p>{{ .Description | markdownify }}</p>
                           </div>
             </div>
         </div>                  {{ end }}
-                </div>
-
-                
-      </div> 
-		    
-                
-		  
+      </div>	  
         </div>	
     </div>
 </section>
