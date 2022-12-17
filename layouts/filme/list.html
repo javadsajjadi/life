@@ -19,6 +19,23 @@
             </div>
         </div>                  {{ end }}
       </div> 
+		    
+                {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+                <div>
+                    <ul>
+                        {{ if .Paginator.HasPrev }}
+                            <li style="float:left;">
+                                <a href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; {{ i18n "newerPosts" }}</a>
+                            </li>
+                        {{ end }}
+                        {{ if .Paginator.HasNext }}
+                            <li style="float:right;">
+                                <a href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">{{ i18n "olderPosts" }} &rarr;</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
         </div>	
     </div>
 </section>
