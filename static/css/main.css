@@ -942,7 +942,7 @@ textarea, input, select, button {
 .card img {
     border-radius: 3px;
     box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
-    filter: grayscale(67%);
+    filter: grayscale(50%);
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 15%);
@@ -953,4 +953,7 @@ textarea, input, select, button {
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
+}
+.card img:hover {
+    filter: grayscale(1);
 }
