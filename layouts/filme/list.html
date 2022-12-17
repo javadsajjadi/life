@@ -1,6 +1,8 @@
 {{ partial "header.html" . }}
 <section class="main">
+	
   <div class="w3-container">
+	  {{ range first 2 .Pages }}
         <div class="content"> 
             {{ if .Content }}
                 <div class="markdown">
@@ -8,7 +10,7 @@
                 </div>        
             {{ end }}
 		<div class="page-heading2">{{ i18n "filme" }}</div>
-            <div class="row">{{ range .Paginator.Pages }}
+            <div class="row">
               <div class="column">
 			    <div class="card" style="width:100%">
 					       <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>
@@ -18,9 +20,10 @@
 					    <p>{{ .Description | markdownify }}</p>
 					  </div>
 			    </div>
-       		 </div> {{end}}                 
+       		 </div>                 
       </div>	{{partial "pagination.html" .}}
-        </div>	 
+        </div>
+		{{end}} 
     </div>
 </section>
 {{ partial "footer.html" . }}
