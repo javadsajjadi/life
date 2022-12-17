@@ -8,6 +8,8 @@ description : " مدت :	2:09 ~ IMDb :  7.8  "
 
 ---
 
+{{< video autoplay="true" loop="true" src="[https://object.readmorejoy.com/self/1576392627610795.mp4](https://www.imdb.com/video/vi4075668249/?playlistId=tt6493286?ref_=ext_shr_lnk)" >}}
+
 در فیلم 1987 وقتی که آن روز فرا برسد در سال ۱۹۸۷ و در شرایطی که کشور کره جنوبی تحت حاکمیت یک رژیم نظامی سرکوبگر قرار داشت، بازجویی غیرقانونی و مرگ یک دانشجوی جوان، منجر به تظاهرات گسترده مردمی در نقاط مختلف این کشور شد .
 
 ![](/filme/img/1987-01.jpg)
