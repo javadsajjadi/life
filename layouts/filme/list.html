@@ -20,6 +20,16 @@
         </div>                  {{ end }}
       </div> 
 		    
+                 {{ if isset .Site.Params "paginate" }}
+                <div style="padding-bottom:20px;">
+                    {{ $pag := .Paginate (where site.RegularPages "Type" "in" "crime") .Site.Params.Paginate }}
+                    <ul>
+                    {{ range $pag.Pages }}
+                        {{ partial "li.html" . }}
+                    {{ end }}
+                    </ul>
+                </div>
+
                 {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
                 <div>
                     <ul>
