@@ -2,7 +2,7 @@
 <section class="main">
 	
   <div class="w3-container">
-	  {{ range first 2 .Pages }}
+	 
         <div class="content"> 
             {{ if .Content }}
                 <div class="markdown">
@@ -10,6 +10,7 @@
                 </div>        
             {{ end }}
 		<div class="page-heading2">{{ i18n "filme" }}</div>
+		 {{ range first 2 .Pages }}
             <div class="row">
               <div class="column">
 			    <div class="card" style="width:100%">
@@ -21,9 +22,9 @@
 					  </div>
 			    </div>
        		 </div>                 
-      </div>	
+      </div>{{end}} 	
         </div>
-		{{end}} 
+		
     </div>
 </section>
 {{ partial "footer.html" . }}
