@@ -48,7 +48,7 @@ identifier             = "archive"
 url                    = "archive/"
 
 [params]
-paginate               = 2
+paginate               = 4
 include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
 latestpostscount       = 4                             # how many posts to display on the home page
 i18n_flags             = false                         # whether to display small country flags for available translations
@@ -130,4 +130,4 @@ disableKinds = ["taxonomyTerm"]
   author = "authors"
   tag = "tags"
   category = "categories"
-   series = "series"
+  series = "series"
