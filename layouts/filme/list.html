@@ -4,11 +4,7 @@
   <div class="w3-container">
 	 
         <div class="content"> 
-            {{ if .Content }}
-                <div class="markdown">
-                    {{ .Content }}
-                </div>        
-            {{ end }}
+            
 		<div class="page-heading2">{{ i18n "filme" }}</div>
 		 {{ range .Paginator.Pages }}
             <div class="row">
