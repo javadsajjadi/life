@@ -1,6 +1,6 @@
 ---
 
-title: بوکس خیابانی: زندگی جم بلچر
+title: بوکس خیابانی(زندگی جم بلچر)
 date : "2022-11-17 09:17:45"
 image: "/filme/img/thelifeofjembelcher.jpg"
 description : " مدت :	1:45 ~ IMDb :  7.1  "
