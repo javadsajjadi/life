@@ -46,6 +46,21 @@
                     </ul>
                 </div>
                 {{ end }}
+		    {{ else }}
+                {{ $allPages := where site.RegularPages "Type" "in" "blog" }}
+                {{ $totalpostscount := len $allPages }}
+                {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
+                {{ $paginator := .Paginate $allPages $latestpostscount }}
+                {{ $toShow := mul $paginator.PageNumber $paginator.PageSize }}
+                {{ range $index, $el := (first $toShow $allPages) }}
+                    <ul>{{ partial "li.html" . }}</ul>
+                {{ end }}
+                {{ if and (gt $paginator.TotalPages 1) ($paginator.HasNext) }}
+                    <div style="padding-top:20px">
+                        <a class="nextpage" href="{{ $paginator.Next.URL }}#newpage">{{ i18n "seeMore" }}</a>
+                    </div>
+                {{ end }}
+            {{ end }}
         </div>	
     </div>
 </section>
