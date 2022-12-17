@@ -2,6 +2,11 @@
 <section class="main">
     <div class="container">
         <div class="content">
+            {{ if .Content }}
+                <div class="markdown">
+                    {{ .Content }}
+                </div>
+            {{ end }}
             {{ partial "page-heading.html" . }}
             {{ range .Paginator.Pages }}
             {{ with .Data.Pages }}
@@ -13,7 +18,7 @@
                 </ul>
             </nav>
             {{ end }}{{end}}
-        </div> {{ partial "pagination" . }}
+        </div> {{ partial "pagination.html" . }}
     </div>
 </section>
 {{ partial "footer.html" . }}
