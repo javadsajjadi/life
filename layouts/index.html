@@ -8,7 +8,6 @@
                 </div>
             {{ end }}
 
-
             <div class="page-heading">{{ i18n "latestPosts" }}</div>
 
             {{ if isset .Site.Params "paginate" }}
@@ -52,7 +51,7 @@
                     </div>
                 {{ end }}
             {{ end }}
-
         </div>
     </div>
 </section>
+{{ partial "footer.html" . }}
