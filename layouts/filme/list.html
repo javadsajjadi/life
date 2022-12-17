@@ -8,7 +8,7 @@
                 </div>        
             {{ end }}
 		<div class="page-heading2">{{ i18n "filme" }}</div>
-            <div class="row">{{ range where .Paginator.Pages "Section" "ne" "" }}
+            <div class="row">{{ range where .Paginator.Pages "Section" "filme" "" }}
               <div class="column">
             <div class="card" style="width:100%">
                        <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>                          
