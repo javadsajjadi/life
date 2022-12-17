@@ -10,7 +10,7 @@
                 </div>        
             {{ end }}
 		<div class="page-heading2">{{ i18n "filme" }}</div>
-		 {{ range first 4 .Pages }}
+		 {{ range .Paginator.Pages }}
             <div class="row">
               <div class="column">
 			    <div class="card" style="width:100%">
@@ -22,7 +22,8 @@
 					  </div>
 			    </div>
        		 </div>                 
-      </div>{{end}} 	
+      </div>{{end}} 
+		    {{ partial "pagination" .}}
         </div>
 		
     </div>
