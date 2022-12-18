@@ -1,27 +1,66 @@
 {{ partial "header.html" . }}
 <section class="main">
-	
-  <div class="w3-container">
-	 
-        <div class="content"> 
-            
-		<div class="page-heading2">{{ i18n "filme" }}</div>
-		 {{ range .Paginator.Pages }}
-            <div class="row">
-              <div class="column">
-			    <div class="card" style="width:100%">
-					       <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>
-						 
-					  <div class="w3-container w3-center">
-						  <h2>{{ .Title }}</h2>
-					    <p>{{ .Description | markdownify }}</p>
-					  </div>
-			    </div>
-       		 </div>                 
-      </div>{{end}} 
-		   
+    <div class="container">
+        <div class="content">
+            {{ if .Content }}
+                <div class="markdown">
+                    {{ .Content }}
+                </div>
+            {{ end }}
+
+            <div class="page-heading2">{{ i18n "filme" }}</div>
+
+            {{ if isset .Site.Params "paginate" }}
+                <div style="padding-bottom:20px;">
+                    {{ $pag := .Paginate (where site.RegularPages "Type" "in" "filme") .Site.Params.Paginate }}
+					{{ range .Paginator.Pages }}
+					<div class="row">
+					  <div class="column">
+						<div class="card" style="width:100%">
+								   <a href='{{ .Permalink }}'><img{{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"></a>
+								 
+							  <div class="w3-container w3-center">
+								  <h2>{{ .Title }}</h2>
+								<p>{{ .Description | markdownify }}</p>
+							  </div>
+						</div>
+						</div>                 
+			  </div>{{end}} 
+                </div>
+
+                {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+                <div>
+                    <ul>
+                        {{ if .Paginator.HasPrev }}
+                            <li style="float:left;">
+                                <a href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; {{ i18n "newerPosts" }}</a>
+                            </li>
+                        {{ end }}
+                        {{ if .Paginator.HasNext }}
+                            <li style="float:right;">
+                                <a href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">{{ i18n "olderPosts" }} &rarr;</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
+            {{ else }}
+                {{ $allPages := where site.RegularPages "Type" "in" "blog" }}
+                {{ $totalpostscount := len $allPages }}
+                {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
+                {{ $paginator := .Paginate $allPages $latestpostscount }}
+                {{ $toShow := mul $paginator.PageNumber $paginator.PageSize }}
+                {{ range $index, $el := (first $toShow $allPages) }}
+                    <ul>{{ partial "li.html" . }}</ul>
+                {{ end }}
+                {{ if and (gt $paginator.TotalPages 1) ($paginator.HasNext) }}
+                    <div style="padding-top:20px">
+                        <a class="nextpage" href="{{ $paginator.Next.URL }}#newpage">{{ i18n "seeMore" }}</a>
+                    </div>
+                {{ end }}
+            {{ end }}
         </div>
-		 {{ partial "pagination.html" . }}
     </div>
 </section>
+
 {{ partial "footer.html" . }}
