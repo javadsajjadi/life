@@ -20,10 +20,10 @@
   translation: "رفتن به دسته"
 
 - id: newerPosts
-  translation: "نوشته‌های جدید"
+  translation: "بعد"
 
 - id: olderPosts
-  translation: "نوشته‌های قدیمی"
+  translation: "قبل"
 
 - id: seeMore
   translation: "بیشتر"
