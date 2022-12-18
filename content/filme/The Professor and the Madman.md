@@ -2,7 +2,7 @@
 
 title: پروفسور و مرد دیوانه
 date : "2020-12-19 02:00:45"
-image: "/filme/img/prophsor-mad.jpg"
+image: "/filme/img/prophsor-mad00.jpg"
 description : " مدت :	2:04 ~ IMDb :  7.2  "
 
 
