@@ -1,7 +1,7 @@
 ---
 
 title: بروکلین
-date : "2020-12-19 02:00:45"
+date : "2022-12-19 02:00:45"
 image: "/filme/img/Brooklyn.jpg"
 description : " مدت :	1:57 ~ IMDb :  7.5  "
 
