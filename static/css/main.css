@@ -941,8 +941,9 @@ textarea, input, select, button {
 }
 .card img {
     border-radius: 3px;
-    box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
+    /* box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px; */
     filter: grayscale(94%);
+    
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 15%);
@@ -956,43 +957,7 @@ textarea, input, select, button {
 }
 .card img:hover {
     filter: grayscale(5%);
-}
-.pagination {
-    display: flex;
-    list-style: none;
-    border-radius: .25rem;
-    margin: 20px 0;
-    padding: 0;
-    justify-content: center;
+    outline: 0.5rem solid #f0e68c7a;
+    outline-offset: -1.5rem;
 }
 
-.page-link {
-    position: relative;
-    display: block;
-    padding: .75rem 1rem;
-    margin-left: -1px;
-    line-height: 1.25;
-    color: #007bff;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-}
-
-.homepage .page-link,
-.listing .page-link {
-    background-color: #fff;
-}
-
-.page-item.disabled .page-link {
-    color: #6c757d;
-    pointer-events: none;
-    cursor: auto;
-    background-color: #fff;
-    border-color: #dee2e6;
-}
-
-.page-item.active .page-link {
-    z-index: 1;
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-}
