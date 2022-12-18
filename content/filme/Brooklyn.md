@@ -1,6 +1,6 @@
 ---
 
-title: (Brooklyn)بروکلین
+title: بروکلین (Brooklyn) 
 date : "2022-12-18 02:00:45"
 image: "/filme/img/Brooklyn.jpg"
 description : " مدت :	1:57 ~ IMDb :  7.5  "
