@@ -1,7 +1,7 @@
 ---
 
 title: ١٢ مرد خشمگین
-date : "2022-12-21 01:29:45"
+date : "2022-12-20 01:29:45"
 image: "/filme/img/12angrymen.jpg"
 description : " مدت :	1:36 ~ IMDb :  9 ~ سال: 1957  "
 
