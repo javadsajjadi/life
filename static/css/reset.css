@@ -163,3 +163,12 @@ table {
     outline: 0.5rem solid #f0e68c7a;
     outline-offset: -1.5rem;
 }
+.page-heading2 {
+    font-size: 15px;
+    font-family: 'Sahel', 'Helvetica Neue', 'Arial', sans-serif;
+    letter-spacing: -0.005rem;
+    font-weight: 700;
+    color: rgb(32 110 178);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
