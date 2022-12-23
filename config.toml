@@ -15,7 +15,7 @@ googleAnalytics     = "UA-123-45"
 assetdir            = "static"
 
 [permalinks]
-crime  = "crime/:filename"
+crime  = "book/:filename"
 
 [[menu.main]]
 name                   = "درباره"
@@ -30,10 +30,10 @@ identifier             = "blog"
 url                    = "blog/"
 
 [[menu.main]]
-name                   = "جرم‌شناسی"
+name                   = "کتاب"
 weight                 = -120
-identifier             = "crime"
-url                    = "crime/"
+identifier             = "book"
+url                    = "book/"
 
 [[menu.main]]
 name                   = "فیلم"
