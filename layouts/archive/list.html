@@ -22,7 +22,7 @@
     <nav1 class="markdown">
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
                           <a style="font-size: 14px;
-            color: #000;" href="/tags/{{ $name | urlize }}" target="_blank">#{{ $name | humanize }}({{ $taxonomy.Count }})</a>
+            color: #000;" href="/tags/{{ $name | urlize }}" target="_blank"># {{ $name | humanize }}({{ $taxonomy.Count }})</a>
                         {{end}}
         </nav1>
         

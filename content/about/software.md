@@ -9,10 +9,26 @@ aliases = [
 
 +++
 
-This website is a personal homepage.
+بیشتر در شبکه اینترنت با نام قزوان (وەزوان - Qezwan ) شناخته شدم و سایتی را بدین نام  در [گیتهاب](https://qezwan.ir) راه اندازی کردم. در ترجمه هسته سیستم مدیریت محتوای وردپرس بعنوان  [ویرایشگر](https://profiles.wordpress.org/qezwan/)و  بیشتر از بیست افزونه را ترجمه نمودم.
 
-The site is built with <a target="_blank" rel="noopener" href="//gohugo.io">Hugo</a>—a static site generator made with Go. The website [source code](/) is available on GitHub. It uses the <a target="_blank" rel="noopener" href="//github.com/nishanths/cocoa-hugo-theme">cocoa</a> theme. The posts are written in Markdown.
+مع الوصف سایت‌های و نرم افزارهای زیر را به زبان کوردی ترجمه نمودم:
 
-The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.
+**سایت ماستودون**
 
-If you find errors, please let me know.
+ماستودون[^1] یکی از شبکه‌های غیرمتمرکز و کد باز یا منبع باز است.که می‌توان به عنوان رقیب تویتر قلمداد کرد.در [این قسمت](https://crowdin.com/project/mastodon) می‌توانید در ترجمه زبان کوردی این شبکه اجتماعی مشارکت کنید.
+
+
+**اپلیکیشن توسکی**
+
+توسکی (Tusky)اپلیکیشن موبایل برای شبکه اجتماعی ماستودن است. در [این قسمت](https://crowdin.com/project/mastodon-for-android)  می‌توانید در ترجمه زبان کوردی این اپ  مشارکت کنید.
+
+[^1]: ماستودون (به انگلیسی: Mastodon) یک نرم‌افزار آزاد و متن‌باز خودمیزبان (خدمات وب) برای ساخت شبکهٔ اجتماعی است که این امکان را به هر شخص می‌دهد تا گره سرور خود را در شبکه میزبانی کند و پایگاه‌های مختلف از کاربران آن در میان سروهای متفاوتی پخش هستند.[ویکیپدیا](https://bit.ly/3hlB73t)
+
+**سیسستم مدیریت محتوای بلودیت**
+
+نرمافزاری منبع باز و رایگان برای مدیریت وبلاگ یا سایت، بصورت فلات-فایل طراحی گشته و برای ذخیره اطلاعات خود از JSON استفاده می‌کند.سایت با یک سرور که از زبان php پشتیبانی کند نیاز خواهد داشت.افزونه و پوسته های زیادی بصورت رایگان برای آن طراحی گشته است.از [این قسمت](https://crowdin.com/project/mastodon-for-android)   می‌تانید در ترجمه آن به زبان کوردی مشارکت نمایید.
+
+**پنل هستیا**
+
+هستیا پانل(Hestia Control Panel)، سیستمی برای مدیریت هاست سرورهای لینوکسی می‌باشد که در عین کارآمدی و ساده بودن، بصورت منبع باز هم منتشر شده است. برای ویرایش ترجمه یا مشارکت در بهتر کردن زبان کردی می‌توانید به [این قسمت](https://translate.hestiacp.com/projects/hestiacp/) مراجعه فرمایید.
+

@@ -60,7 +60,7 @@ body {
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
   direction: rtl;
-  background-image: url(/life/img/isto.jpg);
+  background-image: url(../img/isto.jpg);
 }
 @media (min-width: 600px) {
   body {
@@ -175,9 +175,10 @@ section.header .content {
   align-items: center;
 }
 section.header .avatar {
-  border-radius: 50%;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-  max-width: 65px;
+      border-radius: 50%;
+    /* box-shadow: 0px 2px 3px rgb(0 0 0 / 20%); */
+    max-width: 60px;
+    filter: grayscale(70%);
 }
 section.header .name {
   font-size: 18px;
@@ -672,7 +673,7 @@ section.main .content .markdown a code:hover {
 }
 section.main .content .markdown p {
   /* Invoked by line break */
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-top: 0;
   margin-bottom: 1em;
 }
@@ -838,14 +839,15 @@ section.main .content .markdown ol li {
   list-style: arabic-indic;
   max-width: 100%;
   /* margin: 0 34px auto; */
-  padding-right: 1px;
-  text-align: right;
-  direction: rtl;
-  list-style: arabic-indic;
-  /* border-right: #eee 3px solid; */
-  padding-bottom: 5px;
-  line-height: 1rem;
-  font-size: 14px;
+     padding-right: 6px;
+    text-align: right;
+    direction: rtl;
+    list-style: arabic-indic;
+   /* border-right: #c0d7ff9e 3px solid;*/
+    padding-bottom: 1px;
+    line-height: 1rem;
+    font-size: 14px;
+    padding-top: 4px;
 }
 ol.b li {
   list-style-type: decimal;
@@ -924,3 +926,38 @@ textarea, input, select, button {
   margin-top: 29px;
   margin-bottom: -11px;
 }
+.column {
+    float: right;
+    width: 50%;
+    padding: 0 10px 20px;
+    height: 282px;
+}
+  .row {
+    margin: 0 -5px;
+}
+  .w3-container, .w3-panel {
+    padding: 7px;
+    margin-right: 20px;
+}
+.card img {
+    border-radius: 3px;
+    /* box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px; */
+    filter: grayscale(94%);
+    
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 15%);
+}
+
+.card {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+.card img:hover {
+    filter: grayscale(5%);
+    outline: 0.5rem solid #f0e68c7a;
+    outline-offset: -1.5rem;
+}
+

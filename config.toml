@@ -1,4 +1,4 @@
-baseurl             = "https://javadsajjadi.github.io/life"
+baseurl             = "https://yaprax.ir"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
@@ -36,10 +36,10 @@ identifier             = "crime"
 url                    = "crime/"
 
 [[menu.main]]
-name                   = "فیلم/کتاب"
+name                   = "فیلم"
 weight                 = -110
-identifier             = "film"
-url                    = "book-film/"
+identifier             = "filme"
+url                    = "filme/"
 
 [[menu.main]]
 name                   = "بایگانی"
@@ -48,9 +48,9 @@ identifier             = "archive"
 url                    = "archive/"
 
 [params]
-paginate               = 5
+paginate               = 4
 include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
-latestpostscount       = 5                             # how many posts to display on the home page
+latestpostscount       = 8                             # how many posts to display on the home page
 i18n_flags             = false                         # whether to display small country flags for available translations
 author                 = "سیدجوادسجادی"
 cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
@@ -130,3 +130,4 @@ disableKinds = ["taxonomyTerm"]
   author = "authors"
   tag = "tags"
   category = "categories"
+  series = "series"

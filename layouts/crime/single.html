@@ -58,7 +58,9 @@
                 </div>
             </div>
             <div class="markdown">
-                {{ .Content }} 
+                
+                {{ .Content }}
+               {{ partial "series.html" . }}
             </div>
             <br>
             <div class="disqus">
