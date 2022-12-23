@@ -8,7 +8,7 @@
             
             
                 <div class="markdown">
-                  <h1>{{ .Params.name }}</h1>
+                  <h1>نوشته‌های {{ .Params.name }}</h1>
                   <ul>
                   {{ range .Data.Pages }}
                       <li><a href="{{ .Permalink }}" target="_blank">{{ .Title }}</a></li>
