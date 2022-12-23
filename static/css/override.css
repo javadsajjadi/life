@@ -1,5 +1,5 @@
 /* override css styles of the main theme here */
-@media (min-width: 400px)
+@media (min-width: 600px)
 section.header {
     padding-top: 60px;
     padding-bottom: 60px;
