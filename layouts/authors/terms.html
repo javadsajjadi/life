@@ -1,6 +1,6 @@
 <h1>Authors</h1>
 <ul>
 {{ range .Data.Pages }}
-  <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+  <li><svg width="18" height="10" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentcolor" opacity=".4" d="M12.7975 4.80957l3.6992-.32715C17.3269 4.48242 18 5.16206 18 6.00032S17.3269 7.51822 16.4967 7.51822L12.7975 7.19107C12.1463 7.19107 11.6183 6.65793 11.6183 6.00032 11.6183 5.34161 12.1463 4.80957 12.7975 4.80957z"></path></svg> <a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
 {{ end }}
 </ul>
