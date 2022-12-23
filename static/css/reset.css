@@ -125,3 +125,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.column {
+    float: right;
+    width: 100%;
+    padding: 0 10px 20px;
+    height: 282px;
+}
+  .row {
+    margin: 0 -5px;
+}
+  .w3-container, .w3-panel {
+    padding: 5px;
+    margin-right: 10px;
+}
+.card img {
+    border-radius: 3px;
+    /* box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px; */
+    filter: grayscale(94%);
+    
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 15%);
+}
+
+.card {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+.card img:hover {
+    filter: grayscale(5%);
+    outline: 0.5rem solid #f0e68c7a;
+    outline-offset: -1.5rem;
+}
