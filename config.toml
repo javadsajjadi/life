@@ -13,6 +13,7 @@ disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-123-45"
 assetdir            = "static"
+enableEmoji= true
 
 [permalinks]
 crime  = "book/:filename"
