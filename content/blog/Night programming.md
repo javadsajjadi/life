@@ -15,7 +15,7 @@ authors:
 | :----: |  :----: |  :----: | :---- |  :----: |
 | 1 | HTML5/CSS3  | openclassrooms  | Introduction to HTML and CSS | "30 |
 | 2 |  HTML5/CSS3 | openclassrooms  | Create HTML text elements | 1 |
-| 3 | HTML5/CSS3  | openclassrooms  | Structure an entire page |  |
+| 3 | HTML5/CSS3  | openclassrooms  | Structure an entire page | "45 |
 | 4 |  HTML5/CSS3 | openclassrooms  | Spice up your content with CSS |  |
 | 5 |   |   |  |  |
 | 6 |   |   |  |  |
