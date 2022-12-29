@@ -11,8 +11,8 @@ authors:
 تصمیم بر آن شد که از اول شروع به یادگیری نمایم اما مصمم و مستمر و تاحدی با جزئییات.
 
 
-| روز | برنامه نویسی | منبع یادگیری | موضوع | تمرین |
-| :----: |  :----: |  :----: | :----: |  :----: |
+| روز | برنامه نویسی | منبع یادگیری | موضوع | زمان |
+| :----: |  :----: |  :----: | :---- |  :----: |
 | 1 | HTML5/CSS3  | openclassrooms  | Introduction to HTML and CSS | "30 |
 | 2 |  HTML5/CSS3 | openclassrooms  | Create HTML text elements | 1 |
 | 3 | HTML5/CSS3  | openclassrooms  | Structure an entire page |  |
