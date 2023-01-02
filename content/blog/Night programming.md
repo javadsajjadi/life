@@ -16,30 +16,5 @@ authors:
 | 1 | HTML5/CSS3  | openclassrooms  | Introduction to HTML and CSS | "30 |
 | 2 |  HTML5/CSS3 | openclassrooms  | Create HTML text elements | 1 |
 | 3 | HTML5/CSS3  | openclassrooms  | Structure an entire page | "45 |
-| 4 |  HTML5/CSS3 | openclassrooms  | Spice up your content with CSS |  |
-| 5 |   |   |  |  |
-| 6 |   |   |  |  |
-| 7 |   |   |  |  |
-| 8 |   |   |  |  |
-| 9 |   |   |  |  |
-| 10 |   |   |  |  |
-| 11 |   |   |  |  |
-| 12 |   |   |  |  |
-| 13 |   |   |  |  |
-| 14 |   |   |  |  |
-| 15 |   |   |  |  |
-| 16 |   |   |  |  |
-| 17 |   |   |  |  |
-| 18 |   |   |  |  |
-| 19 |   |   |  |  |
-| 20 |   |   |  |  |
-| 21 |   |   |  |  |
-| 22 |   |   |  |  |
-| 23 |   |   |  |  |
-| 24 |   |   |  |  |
-| 25 |   |   |  |  |
-| 26 |   |   |  |  |
-| 27 |   |   |  |  |
-| 28 |   |   |  |  |
-| 29 |   |   |  |  |
-| 30 |   |   |  |  |
+| 4 |  HTML5/CSS3 | openclassrooms  | Spice up your content with CSS | ١ |
+| این کورس چنگی به دل نزد.باید آفلاین خواند.|
