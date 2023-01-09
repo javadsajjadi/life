@@ -13,4 +13,4 @@ authors:
 | 1 | غذای جدید با سینه مرغ  | ٤:٣٦  | مهلا | [آموزش](https://www.youtube.com/watch?v=6f1LSwtuj2g) |
 | 2 | غذای  با سینه مرغ  | 1 دقیقه  | کوک مک | [آموزش](https://www.youtube.com/watch?v=tAMf9vKolcg&list=PL1ygF2bIRjFZW9qATra8NRsjgaRFzUvQk) |
 | 3 | لوبیا پلو مجلسی  | ١٠:٢٧  | ته‌دیگ | [آموزش](https://www.youtube.com/watch?v=gl5iBT4En0M) |
-|4 |لوبیا پلو رستورانی | 5:26 | شف کامران | [آموزس] ( https://www.youtube.com/watch?v=Wmx72xUq6Us )|
+| 4 |لوبیا پلو رستورانی | 5:26 | شف کامران | [آموزش](https://www.youtube.com/watch?v=Wmx72xUq6Us) |
