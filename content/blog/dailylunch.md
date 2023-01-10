@@ -16,4 +16,4 @@ authors:
 | 4 |لوبیا پلو رستورانی | 5:26 | شف کامران | [آموزش](https://www.youtube.com/watch?v=Wmx72xUq6Us) |
 | 5 | هویج‌پلو | 8:39 | نواب ابراهیمی | [آموزش](https://www.youtube.com/watch?v=zx7DdQYu6YY) |
 | 6 | دلمه | 12:38 | مهرداد پز | [آموزش ](https://www.youtube.com/watch?v=KTx03SdKg9k) |
-| لوبیاپلو | 10:43 |  //  | [آموزش](https://youtu.be/NfVI5UJt-Vo) |
+| 7 | لوبیاپلو | 10:43 |  //  | [آموزش](https://youtu.be/NfVI5UJt-Vo) |
