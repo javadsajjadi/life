@@ -1,5 +1,5 @@
 ---
-title: "نهار روزانه برای پدر"
+title: "گردآوری آموزش‌های پخت نهار روزانه "
 date: 2023-01-09T12:30:23Z
 tags : [برنامه]
 description: روزانه برای پدر نهاری درست میکنم
@@ -15,3 +15,4 @@ authors:
 | 3 | لوبیا پلو مجلسی  | ١٠:٢٧  | ته‌دیگ | [آموزش](https://www.youtube.com/watch?v=gl5iBT4En0M) |
 | 4 |لوبیا پلو رستورانی | 5:26 | شف کامران | [آموزش](https://www.youtube.com/watch?v=Wmx72xUq6Us) |
 | 5 | هویج‌پلو | 8:39 | نواب ابراهیمی | [آموزش](https://www.youtube.com/watch?v=zx7DdQYu6YY) |
+| 6 | دلمه | 12:38 | مهرداد پز | [آموزش ](https://www.youtube.com/watch?v=KTx03SdKg9k) |
