@@ -1,3 +1,4 @@
+{{ if not .Params.hidden }}
 <li class="post-item">
    
     <span class="meta"><time >
@@ -29,3 +30,4 @@
     
     <a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
 </li>
+{{ end }}
