@@ -2,7 +2,7 @@
 title: "فعالیت‌های روزانه برای زمستان ١٤٠١"
 date: 2023-01-07T06:30:23Z
 tags : [برنامه]
-offTheRecord: true
+hidden: true
 description: برنامه زمستان ١٤٠١ برای خواندن دروس حقوقی
 authors:
 - javad
