@@ -38,6 +38,15 @@
     transform: translate(-50%,-50%);
     max-width: 900px;
     max-height: 100%;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  
+  /* For Demo */
+  width: 75vw;
+ /* height: 75vh;*/
+  background-color: #ccc;
 }
 #lightbox .videoWrapperContainer .videoWrapper {
     height: 0;
