@@ -68,7 +68,7 @@ noshowreadtime         = false                         # if true, don't show "<x
 selfintro              = "نویسنده و مترجم"                            # appears in the site header when set to a non-empty string
 linkedin               = "//wa.me/989188028845?text=با سلام ! در اولین فرصت پاسخ خواهم داد."
 twitter                = "//twitter.com/javadsajjadi_"
-mastodon               = "//mastodon.social/@qezwan"
+mastodon               = "//mastodon.social/@javadsajjadi"
 telegram               = "//t.me/jsajjadi"
 px500                  = "//pixelfed.social/qezwan"
 github                 = "//github.com/javadsajjadi"
