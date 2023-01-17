@@ -1,5 +1,5 @@
 {{ if not .Params.hidden }}
- <li class="post-item no-bullet">
+ <li class="post-item">
     <span class="meta"><time >
       {{ $shamsi := newScratch }}
         {{ $shamsi.Set "diff" (sub (add ( div .PublishDate.Unix 86400) 25569) (add ( div (time "1920-03-20").Unix 86400) 25569)) }}
