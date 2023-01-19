@@ -3,7 +3,7 @@
 title: کفرناحوم (Capernaum) 
 date : "2023-01-18 02:00:45"
 image: "/filme/img/Capernaum.jpg"
-description : " مدت :	2:06 ~ IMDb :  8.4  "
+description : " مدت :	2:06 ~ IMDb :  8.4 ~ سال: 2018  "
 
 
 ---
