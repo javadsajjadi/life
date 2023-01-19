@@ -15,10 +15,11 @@ authors:
 | :----: |  :----: |  :----: | :----: |  :----: | :----: | 
 | HTML/HTML5  | EleCodeCenter GP  | 29 | | 1401/10/10 | | 
 
+>  این کورس چنگی به دل نزد.باید آفلاین خواند.
+
 | روز | برنامه نویسی | منبع یادگیری | موضوع | زمان |
 | :----: |  :----: |  :----: | :---- |  :----: |
 | 1 | HTML5/CSS3  | openclassrooms  | Introduction to HTML and CSS | "30 |
 | 2 |  HTML5/CSS3 | openclassrooms  | Create HTML text elements | 1 |
 | 3 | HTML5/CSS3  | openclassrooms  | Structure an entire page | "45 |
 | 4 |  HTML5/CSS3 | openclassrooms  | Spice up your content with CSS | ١ |
->  این کورس چنگی به دل نزد.باید آفلاین خواند.
