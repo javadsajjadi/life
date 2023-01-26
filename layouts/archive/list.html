@@ -27,16 +27,12 @@
                         {{end}}
         </nav1>
             <p>
-            {{ range .Pages.GroupByDate "2006" }}
-<h3>{{ .Key }}</h3>
-<ul>
-    {{ range .Pages.GroupByDate "2006-01" }}
-    <li>
-      {{ .Key }} {{ len .Pages }}
-    </li>
+           {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms.Alphabetical.Reverse }}
+      dt
+        a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}" {{ $value.Name }}
+      dd {{ $value.Count }} posts
     {{ end }}
-</ul>
-{{ end }}
             </p>
     </div>
     
