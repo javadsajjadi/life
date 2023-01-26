@@ -26,14 +26,7 @@
             color: #000;" href="/tags/{{ $name | urlize }}" target="_blank"># {{ $name | humanize }}({{ $taxonomy.Count }})</a>
                         {{end}}
         </nav1>
-            <p>
-           {{ $data := .Data }}
-    {{ range $key, $value := .Data.Terms.Alphabetical.Reverse }}
-      dt
-        a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}" {{ $value.Name }}
-      dd {{ $value.Count }} posts
-    {{ end }}
-            </p>
+           
     </div>
     
 </section>
