@@ -26,7 +26,18 @@
             color: #000;" href="/tags/{{ $name | urlize }}" target="_blank"># {{ $name | humanize }}({{ $taxonomy.Count }})</a>
                         {{end}}
         </nav1>
-         <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            <p>
+            {{ range .Pages.GroupByDate "2006" }}
+<h3>{{ .Key }}</h3>
+<ul>
+    {{ range .Pages.GroupByDate "2006-01" }}
+    <li>
+      {{ .Key }} {{ len .Pages }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
+            </p>
     </div>
     
 </section>
