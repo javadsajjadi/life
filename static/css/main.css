@@ -960,7 +960,7 @@ textarea, input, select, button {
     outline: 0.5rem solid #f0e68c7a;
     outline-offset: -1.5rem;
 }
- .image-gallery {overflow: auto; gap: 1rem; margin-right: 0!important;column-count: 4; display: inline-block; width: 100%; /*flex-wrap: wrap;*/}
+ .image-gallery {overflow: auto; gap: 1rem; margin-right: 0!important;column-count: 4; display: flex; width: 100% !important; flex-wrap: wrap;}
     .image-gallery li {display: block; width: calc(25% - 0.75rem); margin-left: 0!important;}
     .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
     .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; position: relative; bottom: 0.5rem;}
