@@ -6,4 +6,4 @@ title = "گالری"
 
 +++
 
-{{< image-gallery gallery_dir="album" >}}
+
