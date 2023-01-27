@@ -43,6 +43,12 @@ identifier             = "filme"
 url                    = "filme/"
 
 [[menu.main]]
+name                   = "گالری"
+weight                 = -105
+identifier             = "photo"
+url                    = "photo/"
+
+[[menu.main]]
 name                   = "بایگانی"
 weight                 = -90
 identifier             = "archive"
