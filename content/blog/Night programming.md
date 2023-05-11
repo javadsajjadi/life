@@ -2,6 +2,7 @@
 title: "برنامه نویسی شبانه"
 date: 2022-12-28T12:30:23Z
 tags : [برنامه]
+hidden: true
 description: برنامه شبانه برای یادگیری برنامه نویسی 
 authors:
 - javad
