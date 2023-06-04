@@ -2,7 +2,7 @@
 title: "آموزش نرم‌افزار آدوبی ایندیزاین"
 date: 2023-06-04T06:30:23Z
 tags : [برنامه]
-hidden: false
+#hidden: false
 description: یادگیری نرم‌ازارهای گرافیک 
 authors:
 - javad
