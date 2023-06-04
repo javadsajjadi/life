@@ -36,17 +36,17 @@ weight                 = -120
 identifier             = "book"
 url                    = "book/"
 
-[[menu.main]]
+/*[[menu.main]]
 name                   = "فیلم"
 weight                 = -110
 identifier             = "filme"
-url                    = "filme/"
+url                    = "filme/" *\
 
-[[menu.main]]
+/* [[menu.main]]
 name                   = "گالری"
 weight                 = -105
 identifier             = "photo"
-url                    = "photo/"
+url                    = "photo/" *\
 
 [[menu.main]]
 name                   = "بایگانی"
