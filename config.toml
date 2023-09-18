@@ -72,7 +72,7 @@ lang                   = "ckb"
 
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
 selfintro              = "نویسنده و مترجم"                            # appears in the site header when set to a non-empty string
-#whatsapp               = "//wa.me/989188028845?text=با سلام ! در اولین فرصت پاسخ خواهم داد."
+#whatsapp               = "//wa.me/98918?text=با سلام ! در اولین فرصت پاسخ خواهم داد."
 twitter                = "//twitter.com/javadsajjadi_"
 mastodon               = "//mastodon.social/@javadsajjadi"
 telegram               = "//t.me/jsajjadi"
