@@ -23,3 +23,5 @@ authors:
 امید است که این خدمت نیز مورد قبول شخصیتهای اسلامی اساتید دانشگاه حقوقدانان دانشجویان و دانش پژوهان محترم قرار گیرد.
 
 و من الله التوفيق ناشر علیرضا گنج دانش خرداد ١٣٧٦
+
+<iframe title="Pixelfed Profile Embed" src="https://pixelfed.social/javadsajjadi/embed" class="pixelfed__embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script async defer src="https://pixelfed.social/embed.js"></script>
