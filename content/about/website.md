@@ -17,3 +17,7 @@ aliases = [
 - سایت انتشاراتی [نوسیار](https://nusyar.com)
 - فرهنگ [انگلیسی-کوردی](https://dict.linux.krd/)
 - ...
+
+نگارخانه :
+
+{{< image-gallery gallery_dir="album" >}}
