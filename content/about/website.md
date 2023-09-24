@@ -20,4 +20,4 @@ aliases = [
 
 نگارخانه :
 
-{{< image-gallery gallery_dir="album" >}}
+{{< image-gallery gallery_dir="web" >}}
