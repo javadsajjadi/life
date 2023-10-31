@@ -20,4 +20,4 @@ authors:
 
 
 
-{{< youtubepl id="PLQ_PIlf6OzqIM_4h72rGNcT5Et6QcyyExJ" >}}
+{{< youtubepl PLQ_PIlf6OzqIM_4h72rGNcT5Et6QcyyExJ >}}
