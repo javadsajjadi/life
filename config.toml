@@ -57,7 +57,7 @@ url                    = "archive/"
 name                   = "قلم من"
 weight                 = -40
 identifier             = "ipen"
-site                 = "https://i-pen.ir"
+url =                 = "https://i-pen.ir"
 
 [params]
 paginate               = 7
