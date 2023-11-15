@@ -31,7 +31,9 @@
                 <ul>
                     {{ range .Site.Menus.main }}
                         {{/* TODO: use relLangURL instead of absLangURL? */}}
-                        <li class="nav-{{ .Identifier }}"><a href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span></a></li>
+                    
+                        <a class="nav-{{ if eq $currentPage.RelPermalink .URL }}is-active{{end}}" href="{{.URL}}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }}>
+
                     {{ end }}
                 </ul>
             </nav>
