@@ -54,14 +54,10 @@ weight                 = -90
 identifier             = "archive"
 url                    = "archive/"
 
-[[menu.main]]
-name                   = "قلم من"
-weight                 = -40
-identifier             = "ipen"
-url                    = "https://i-pen.ir/"
-hrefTargetBlank = false
-[menu.main.params]
-    external = true
+[[menu.after]]
+  name = "Hugo Themes"
+  url = "https://themes.gohugo.io/hugo-book/"
+  weight = 20
 
 [params]
 paginate               = 7
