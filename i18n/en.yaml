@@ -35,8 +35,10 @@
   translation: "فیلم‌های دیده شده..."
 - id: book
   translation: "کتاب‌های خوانده شده ..."
-- id: about
-  translation: "درباره"
+- id: ipen
+  translation: "قلم من"
+- id:  share_on
+ translation: ""
 - id:  share_on
   translation: "انتشار"
 - id:  tagcloud
