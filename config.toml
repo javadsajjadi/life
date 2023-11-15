@@ -53,6 +53,11 @@ name                   = "بایگانی"
 weight                 = -90
 identifier             = "archive"
 url                    = "archive/"
+[[menu.main]]
+name                   = "قلم من"
+weight                 = -40
+identifier             = "ipen"
+url                    = "https://i-pen.ir"
 
 [params]
 paginate               = 7
