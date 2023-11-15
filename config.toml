@@ -59,7 +59,8 @@ name                   = "قلم"
 weight                 = 20
 identifier             = "ipen"
 url                    = "https://i-pen.ir"
-
+ [menu.main.params]
+    external = true
 [params]
 paginate               = 7
 include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
