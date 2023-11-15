@@ -1,4 +1,4 @@
-baseurl             = "https://yaprax.ir"
+baseurl             = ""
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
