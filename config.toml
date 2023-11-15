@@ -53,11 +53,13 @@ name                   = "بایگانی"
 weight                 = -90
 identifier             = "archive"
 url                    = "archive/"
+
+[menu]
 [[menu.main]]
 name                   = "قلم من"
 weight                 = -40
 identifier             = "ipen"
-url                 = '<https://i-pen.ir/>'
+url                    = '<https://i-pen.ir/>'
 [menu.main.params]
     external = true
 
