@@ -21,23 +21,27 @@
 
 - id: newerPosts
   translation: "بعـــدی"
-
+  
 - id: olderPosts
   translation: "قبلـــی"
-
+  
 - id: seeMore
   translation: "بیشتر"
+  
 - id: blog
   translation: "روزمـــرگی"
+  
 - id: gnu
   translation: "گنو/لینوکس"
+  
 - id: filme
   translation: "فیلم‌های دیده شده..."
+  
 - id: book
   translation: "کتاب‌های خوانده شده ..."
+  
 - id: ipen
   translation: "قلم من"
-- id:  share_on
-  translation: "انتشار"
+
 - id:  tagcloud
   translation: "بایگانــــــــــی"
