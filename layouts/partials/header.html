@@ -32,8 +32,8 @@
                     {{ range .Site.Menus.main }}
                         {{/* TODO: use relLangURL instead of absLangURL? */}}
                     
-         <li class="nav-{{ .Identifier }}"><a href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span></a></li> <li><a href="https://i-pen.ir">قلم من</a></li>
-                    {{ end }}
+         <li class="nav-{{ .Identifier }}"><a href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span></a></li>
+                    {{ end }} <li><a href="https://i-pen.ir">قلم من</a></li>
                 </ul>
             </nav>
         </div>
