@@ -33,7 +33,8 @@
                         {{/* TODO: use relLangURL instead of absLangURL? */}}
                     
                         <a class="nav-{{ if eq $currentPage.RelPermalink .URL }}is-active{{end}}" href="{{.URL}}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }}>
-
+ {{ .Name }}
+    </a>
                     {{ end }}
                 </ul>
             </nav>
