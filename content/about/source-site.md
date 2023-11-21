@@ -13,3 +13,13 @@ aliases = [
 
 ### موسیقی:
 - [سانگ سرا (جهان موسیقی بی کلام)](https://songsara.net/)
+
+
+### وب و گرافیک:
+- [وبلاگ(lapa)](https://www.lapa.ninja/blog/)
+- [اینترنت آرشیو(Internet Archive)](https://archive.org/)
+
+### برنامه نویسی
+
+- [freefrontend](https://freefrontend.com/)
+
