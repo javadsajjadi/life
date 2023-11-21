@@ -11,15 +11,15 @@ aliases = [
 
 در این بخش تارنماهایی کە روزانه بدانها سرکی میزنم را ذخیره می‌نمایم
 
-### موسیقی:
+##### موسیقی:
 - [سانگ سرا (جهان موسیقی بی کلام)](https://songsara.net/)
 
 
-### وب و گرافیک:
+##### وب و گرافیک:
 - [وبلاگ(lapa)](https://www.lapa.ninja/blog/)
 - [اینترنت آرشیو(Internet Archive)](https://archive.org/)
 
-### برنامه نویسی
+##### برنامه نویسی
 
 - [freefrontend](https://freefrontend.com/)
 
