@@ -223,6 +223,9 @@ section.header nav ul li:first-child {
 }
 section.header nav ul li:last-child {
   margin-right: 0;
+  background: #e5e5e5;
+  padding: 2px;
+  border-radius: 3px;
 }
 section.header nav ul a {
   color: #555;
