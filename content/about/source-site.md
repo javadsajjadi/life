@@ -18,8 +18,9 @@ aliases = [
 ##### وب و گرافیک:
 - [وبلاگ(lapa)](https://www.lapa.ninja/blog/)
 - [اینترنت آرشیو(Internet Archive)](https://archive.org/)
-- [براش (brusheezy)](https://www.brusheezy.com/)
+- [براش (brusheezy)](https://www.brusheezy.com/)   
 - [گرافیک فامیلی (graphicsfamily)](https://graphicsfamily.com/)
+- [مجله فلیپ سنک (flipsnack)](https://www.flipsnack.com/)
 
 ##### برنامه نویسی
 
