@@ -25,5 +25,7 @@ aliases = [
 
 - [freefrontend](https://freefrontend.com/)
 - [svgrepo](https://www.svgrepo.com/vectors/flower/16)
-- [server-world](https://www.server-world.info/)
+- [server-world](https://www.server-world.info/)  
+- [makewithhugo](https://makewithhugo.com/)     
+- [freepdf-books](https://freepdf-books.com/) 
 
