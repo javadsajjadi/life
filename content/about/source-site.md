@@ -27,5 +27,6 @@ aliases = [
 - [svgrepo](https://www.svgrepo.com/vectors/flower/16)
 - [server-world](https://www.server-world.info/)  
 - [makewithhugo](https://makewithhugo.com/)     
-- [freepdf-books](https://freepdf-books.com/) 
+- [freepdf-books](https://freepdf-books.com/)  
+- [books.goalkicker](https://books.goalkicker.com/)
 
