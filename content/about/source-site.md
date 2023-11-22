@@ -19,8 +19,11 @@ aliases = [
 - [وبلاگ(lapa)](https://www.lapa.ninja/blog/)
 - [اینترنت آرشیو(Internet Archive)](https://archive.org/)
 - [براش (brusheezy)](https://www.brusheezy.com/)
+- [گرافیک فامیلی (graphicsfamily)](https://graphicsfamily.com/)
 
 ##### برنامه نویسی
 
 - [freefrontend](https://freefrontend.com/)
+- [svgrepo](https://www.svgrepo.com/vectors/flower/16)
+- [server-world](https://www.server-world.info/)
 
