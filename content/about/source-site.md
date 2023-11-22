@@ -29,5 +29,6 @@ aliases = [
 - [server-world](https://www.server-world.info/)  
 - [makewithhugo](https://makewithhugo.com/)     
 - [freepdf-books](https://freepdf-books.com/)  
-- [books.goalkicker](https://books.goalkicker.com/)
+- [books.goalkicker](https://books.goalkicker.com/)  
+- [elecodeiranzamin](https://elecodeiranzamin.com/)
 
