@@ -20,7 +20,8 @@ aliases = [
 - [اینترنت آرشیو(Internet Archive)](https://archive.org/)
 - [براش (brusheezy)](https://www.brusheezy.com/)   
 - [گرافیک فامیلی (graphicsfamily)](https://graphicsfamily.com/)
-- [مجله فلیپ سنک (flipsnack)](https://www.flipsnack.com/)
+- [مجله فلیپ سنک (flipsnack)](https://www.flipsnack.com/)  
+- [منبع باز و رایگان وکتور (vecteezy)](https://www.vecteezy.com/) 
 
 ##### برنامه نویسی
 
